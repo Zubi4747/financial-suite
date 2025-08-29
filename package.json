@@ -2,7 +2,6 @@
   "name": "financial-suite",
   "version": "1.0.0",
   "private": true,
-  "homepage": "https://Zubi4747.github.io/financial-suite",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
@@ -11,17 +10,15 @@
     "deploy": "gh-pages -d dist"
   },
   "dependencies": {
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0",
-    "chart.js": "^4.3.0",
-    "react-chartjs-2": "^5.2.0"
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "vite": "^5.0.0",
-    "@vitejs/plugin-react": "^4.0.0",
-    "tailwindcss": "^3.3.0",
-    "postcss": "^8.4.0",
-    "autoprefixer": "^10.4.0",
-    "gh-pages": "^5.0.0"
+    "@vitejs/plugin-react": "^4.3.1",
+    "autoprefixer": "^10.4.20",
+    "gh-pages": "^6.2.0",
+    "postcss": "^8.4.47",
+    "tailwindcss": "^3.4.13",
+    "vite": "^5.4.9"
   }
 }
